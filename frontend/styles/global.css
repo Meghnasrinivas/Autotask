@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  background: radial-gradient(circle at top, #05060f 0%, #070a16 50%, #01010d 100%);
+  color: #eaeaff;
+}
+
+.app-shell {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.agent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+}
+
+.agent-card {
+  background: rgba(25, 27, 42, 0.85);
+  border: 1px solid rgba(96, 160, 255, 0.4);
+  border-radius: 14px;
+  color: #c9d1ff;
+  padding: 14px;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.25s ease, transform 0.2s ease;
+}
+
+.agent-card.selected {
+  border-color: #88b4ff;
+  box-shadow: 0 0 18px rgba(88, 151, 255, 0.3);
+}
+
+.controls textarea {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 10px;
+  border: 1px solid rgba(110, 118, 142, 0.4);
+  background: rgba(11, 13, 25, 0.8);
+  color: #f1f3ff;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.controls input,
+.controls button {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.controls button {
+  background: linear-gradient(90deg,#5e8bff,#3372ff);
+  border: none;
+  color: #fff;
+  padding: 12px 15px;
+  cursor: pointer;
+}
+
+.response-area {
+  margin-top: 18px;
+  background: rgba(16, 18, 38, 0.8);
+  border: 1px solid rgba(146, 156, 184, 0.35);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+pre {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 12px;
+  overflow: auto;
+}
