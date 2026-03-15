@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NeuroAI Multi-Agent System
 
 ### AI-Powered Dataset Analysis & Project Planning Platform
@@ -312,3 +313,6 @@ Project developed for **NeuraX 2.0 – AIML Autonomous Agent Challenge**
 # License
 
 This project is intended for educational and research purposes.
+=======
+# Autotask
+>>>>>>> 676090cdc398a1afae5ce78f470c505fe3309478
