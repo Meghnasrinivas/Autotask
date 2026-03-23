@@ -304,10 +304,10 @@ The system returns:
 # Author
 
 Meghana Edam
-Electronics And Communication Engineering 
+(Electronics And Communication Engineering student)
 
 Shravanthi (Nani)
-Computer Science Engineering Student
+(omputer Science Engineering Student)
 
 Project developed for **NeuraX 2.0 – AIML Autonomous Agent Challenge**
 
