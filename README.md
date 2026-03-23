@@ -307,7 +307,7 @@ Meghana Edam
 (Electronics And Communication Engineering student)
 
 Shravanthi (Nani)
-(omputer Science Engineering Student)
+(Computer Science Engineering Student)
 
 Project developed for **NeuraX 2.0 – AIML Autonomous Agent Challenge**
 
